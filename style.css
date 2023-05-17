@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#root {
+    text-align: center;
+}
+
+.list-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+}
+
+.list-group-item {
+    width: 200px;
+    border: 1px solid #ccc;
+    transition: background-color 0.3s;
+}
+
+.list-group-item:hover {
+  background-color: #f1f1f1;
+}
